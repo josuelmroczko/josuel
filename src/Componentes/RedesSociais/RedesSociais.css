@@ -1,0 +1,18 @@
+.social img {
+  width: 50px;
+}
+
+.social ul {
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 10%;
+  bottom: 0;
+}
+
+.social li {
+  list-style: none;
+  cursor: pointer;
+}/*# sourceMappingURL=RedesSociais.css.map */
