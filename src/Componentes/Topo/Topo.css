@@ -33,35 +33,49 @@
   font-size: 20px;
 }
 
-@media (max-width: 630px) {
-  .imagem {
-    width: 630px;
-    top: -200px;
-  }
-  .apresentacao {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-  }
+@media (max-width: 800px) {
   .apresentacao h1 {
-    border-right: 2px solid black;
-    color: rgb(227, 227, 227);
+    position: absolute;
+    left: -50px;
+    color: rgb(199, 195, 195);
     font-family: "Courier Prime", monospace;
     font-size: 30px;
+    top: -50px;
+    font-size: 30px;
+    font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
   }
   .textotopo {
     position: absolute;
     top: 100px;
-    width: 500px;
+    width: 55%;
     left: 50px;
-    color: antiquewhite;
-    font-family: "Courier Prime", monospace;
+    color: rgb(206, 206, 206);
     font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    width: 100%;
+  }
+  .imagem {
+    width: 100%;
+    max-width: 550px;
+    height: 500px;
+  }
+  .apresentacao h1 {
+    width: 80%;
+    font-size: 20px;
+    left: -90px;
+    -webkit-animation: piscar_mobile 1000ms steps(40) infinite normal, escrevendo_mobile 4s steps(40) 1s normal both;
+            animation: piscar_mobile 1000ms steps(40) infinite normal, escrevendo_mobile 4s steps(40) 1s normal both;
+    flex-wrap: wrap;
+  }
+  .textotopo {
+    width: 90%;
+    left: 10px;
+    font-size: 15px;
   }
 }
 .animation {
@@ -91,7 +105,7 @@
     width: 0;
   }
   to {
-    width: 480px;
+    width: 490px;
   }
 }
 @keyframes escrevendo {
@@ -99,6 +113,39 @@
     width: 0;
   }
   to {
-    width: 480px;
+    width: 490px;
+  }
+}
+/* MOBILE*/
+@-webkit-keyframes piscar_mobile {
+  from {
+    border-right-color: rgb(255, 255, 255);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@keyframes piscar_mobile {
+  from {
+    border-right-color: rgb(255, 255, 255);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@-webkit-keyframes escrevendo_mobile {
+  from {
+    width: 0;
+  }
+  to {
+    width: 320px;
+  }
+}
+@keyframes escrevendo_mobile {
+  from {
+    width: 0;
+  }
+  to {
+    width: 320px;
   }
 }/*# sourceMappingURL=Topo.css.map */
