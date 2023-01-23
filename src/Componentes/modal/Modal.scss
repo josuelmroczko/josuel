@@ -11,7 +11,7 @@
 }
 .certificados {
     position: relative;
-    bottom: 10px;
+    bottom: -10px;
 }
 .container__modal {
     position: absolute;
@@ -21,33 +21,42 @@
     opacity: 0.7;
     padding: 20px;
     border-radius: 10px 50px;
+    height: 410px;
+    
 
     .certificados a {
         color: aliceblue;
+        text-decoration: none;
+        
+        
         
        
     }
 }
  .certificados__titulo{
-            color: aliceblue;
+   
+            color: rgb(255, 255, 255);
         }
+      
         .fechar{
             position: relative;
             left: 10%;
             width: 80%;
             height: 30px;
             border-radius: 20px 50px;
+            bottom: -15px;
         } 
             
         @media (max-width: 1200px) {
             .container__modal {
                 position: absolute;
                 top: 0px;
-                left: 50%;
+                justify-content: end;
                 background-color: black;
                 opacity: 1;
                 padding: 20px;
                 border-radius: 10px 50px;
+                
             
                 .certificados a {
                     color: aliceblue;
@@ -57,7 +66,8 @@
         }
          
     }
-    @media (max-width:550px){
+    @media (max-width:815px){
+        
         .btn1 {
             position: absolute;
             top: 250px;
@@ -75,12 +85,13 @@
             position: absolute;
             top: 30px;
             left: 30%;
-            width: 90%;
+            width: 60%;
             background-color: black;
             opacity: 1;
             padding: 20px;
             border-radius: 10px 50px;
-        
+        font-size: 15px;
+        height: 450px;
             .certificados a {
                 color: aliceblue;
                 text-decoration: none;
@@ -94,5 +105,17 @@
                     width: 80%;
                     height: 30px;
                     border-radius: 20px 50px;
+                    bottom:-10px;
+                    
                 } 
     } 
+
+
+    @media (max-width:550px){
+        .container__modal{
+            top: 10px;
+            left: 30px;
+            width: 80%;
+            font-size: 12px;
+        }
+    }
