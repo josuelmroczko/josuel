@@ -58,7 +58,7 @@
     color: aliceblue;
   }
 }
-@media (max-width: 815px) {
+@media (max-width: 550px) {
   .btn1 {
     position: absolute;
     top: 250px;
