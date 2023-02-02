@@ -33,6 +33,14 @@
   font-size: 20px;
 }
 
+.divisao {
+  position: absolute;
+  padding: 50px;
+  background-color: rgb(0, 0, 0);
+  width: 92.4%;
+  top: 700px;
+}
+
 @media (max-width: 800px) {
   .apresentacao h1 {
     position: absolute;
