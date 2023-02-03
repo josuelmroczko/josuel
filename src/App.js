@@ -3,6 +3,8 @@ import Projetos from './Componentes/projetos.js';
 
 
 import RedesSociais from './Componentes/RedesSociais';
+import Rodape from './Componentes/rodape';
+
 import Topo from './Componentes/Topo';
 
 function App() {
@@ -13,8 +15,11 @@ function App() {
     <Projetos/>
 
 
-
+    <Rodape/>
      <RedesSociais/>
+
+    
+
     </div>
   );
 }

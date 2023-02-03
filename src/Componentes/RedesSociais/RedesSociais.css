@@ -9,7 +9,7 @@
   justify-content: center;
   display: flex;
   gap: 10%;
-  bottom: 0;
+  bottom: 0px;
 }
 
 .social li {

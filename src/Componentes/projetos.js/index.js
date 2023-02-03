@@ -2,13 +2,18 @@ import calculadoraimc from './calculadoraImc.jpg'
 import imgaleatoria from './trabalhando.jpeg'
 import './projetos.css'
 
+
 function Projetos () {
     return(
        
         <div className='caixa' >
-       
+
+       <div className='projetos__titulo'> <h2>Projetos</h2></div>
        <ul className='containers'>
-s
+
+
+
+
 
         <li >
         <a href='https://introducao-javascript.vercel.app/' target="black" > <img src={calculadoraimc} ></img>  <p>Calculadora IMC</p></a>
@@ -32,7 +37,9 @@ s
         
 
         </ul> 
-     
+           <div>
+            
+           </div>
 </div>
         
         

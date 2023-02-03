@@ -1,3 +1,5 @@
+
+
 .caixa{
     position: absolute;
 width: 100%;
@@ -14,6 +16,20 @@ align-items: center;
 
 
 }
+.projetos__titulo{
+    position: absolute;
+    top: -70px;
+
+width: 100%;
+    }
+    .projetos__titulo h2{
+       display: flex;
+
+    justify-content: center; 
+    color: antiquewhite;
+    font-family: 'Lora', serif;
+    font-size: 34px;
+    }
 .containers li {
 padding: 15px;
 
@@ -47,5 +63,10 @@ padding: 15px;
 @media ( max-width: 550px ){
     .caixa{
         top: 350px;
+       
+   
     }
-}
+ .projetos__titulo h2{
+color: rgb(19, 205, 171);
+padding-top: 20px;
+        }}
