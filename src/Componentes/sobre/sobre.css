@@ -1,0 +1,61 @@
+.containerSobre{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color:#fa8072;
+    top: -100px;
+}
+.texto_sobre{
+    position: absolute;
+    top: 30px;
+    left: 410px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 25px ;
+}
+.pclofi{
+    
+ width: 400px;
+   
+
+    
+}
+
+@media (max-width: 1190px) {
+    .texto_sobre{
+       font-size: 20px;
+    }
+}
+@media (max-width:883px) {
+    .texto_sobre{
+       font-size: 16px;
+    }
+
+}
+@media (max-width:720px){
+    .pclofi{
+        width: 100%;
+        height: 400px;
+        
+    }
+}
+@media (max-width:720px){
+    .texto_sobre{
+        position: absolute;
+      left: 10px;
+      font-weight: bold;
+      color:#000000;
+      background-color:rgb(255, 255, 255);
+      opacity: 0.6;
+       
+       
+        
+    }   
+
+        
+    
+}
+@media (max-width:300px) {
+    .texto_sobre{
+       font-size: 10px;
+    }
+}

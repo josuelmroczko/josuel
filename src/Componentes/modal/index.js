@@ -32,7 +32,7 @@ function Competencias() {
         <div className="container__modal">
         
         <h2 className="certificados__titulo">Cursando Engenharia de software </h2>
-        <p className="certificados__titulo">termino 03/2026</p> 
+        <p className="certificados__titulo">termino 12/2025</p> 
         <hr />
         
         <div>
@@ -60,6 +60,35 @@ function Competencias() {
       
        <a href="https://cursos.alura.com.br/certificate/c267f01b-bf4c-4cc0-b123-00dc15cb836b" target="blank">JAVASCRIPT PARA WEB: CRIE PÁGINAS DINÂMICAS</a>
          <hr/>  
+
+         <a href="https://cursos.alura.com.br/certificate/f53c0819-8118-4d60-8fb5-7f69fa7434ae" target="blank">REACT: ABSTRAINDO SEU CSS COM STYLED COMPONENTS</a>
+         <hr/> 
+
+         <a href="https://www.linkedin.com/learning/certificates/3879ed3c094cfbd1743089c412b4a1c77e1f6d0ea25e90ca657284aafad0a0eb" target="blank">ARQUITETURA DE SOFTWARE: INTRODUÇÃO AOS PADRÕES DE PROJETO
+</a>
+         <hr/> 
+
+         <a href="https://cursos.alura.com.br/certificate/305f591b-dc81-42be-9c3c-e818331630f6 " target="blank">JAVASCRIPT: PROGRAMANDO NA LINGUAGEM DA WEB</a>
+         <hr/> 
+
+         <a href="https://cursos.alura.com.br/certificate/a296e857-73a0-4107-bc4e-6aef237d222b " target="blank">PYTHON: COMEÇANDO COM A LINGUAGEM</a>
+         <hr/> 
+
+         <a href="https://cursos.alura.com.br/certificate/97d3c21d-f0ef-4dac-ad60-c96281de7371 " target="blank">CSS: FLEXBOX E LAYOUTS RESPONSIVOS </a>
+         <hr/> 
+
+         <a href="https://cursos.alura.com.br/certificate/b9c198c4-7cd8-4bd2-97a9-85d6b832cacc " target="blank">PRATICANDO CSS: GRID E FLEXBOX</a>
+         <hr/> 
+
+         <a href=" " target="blank"> </a>
+         <hr/> 
+
+         <a href=" " target="blank"> </a>
+         <hr/> 
+
+         <a href=" " target="blank"> </a>
+         <hr/> 
+        
 </div>
 
 
