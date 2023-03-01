@@ -7,7 +7,7 @@
 }
 .texto_sobre{
     position: absolute;
-    top: 30px;
+    top: 20px;
     left: 410px;
     font-family: 'Courier Prime', monospace;
     font-size: 25px ;
@@ -58,7 +58,11 @@
        
         
     }   
-
+    @media (max-width: 550px){
+        .containerSobre{
+          top: -25px;
+        }
+    }
         
     
 }
