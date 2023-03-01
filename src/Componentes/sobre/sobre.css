@@ -15,10 +15,18 @@
 .pclofi{
     
  width: 400px;
-   
-
-    
 }
+.sobreh2{
+   position: absolute; 
+   color: aliceblue;
+   top: -55px;
+   text-align: center;
+   width: 100%;
+   font-size: 40px;
+   text-transform: uppercase;
+   -webkit-text-stroke:1px rgba(184, 169, 169, 0.5) ;
+}
+
 
 @media (max-width: 1190px) {
     .texto_sobre{
