@@ -1,0 +1,19 @@
+.relogio{ 
+
+    z-index: 999;
+    display: flex;
+
+
+}
+
+.relogio h1{
+    position: absolute;
+    color: antiquewhite;
+    justify-content: end;
+  }
+
+  @media (max-width:600px){
+    .relogio h1{
+        font-size: 15px;
+    }
+  }

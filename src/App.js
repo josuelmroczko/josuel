@@ -1,9 +1,12 @@
 import './App.css';
+import CarouselB from './Componentes/carrosselfooter/carrossel';
+
 
 import Projetos from './Componentes/projetos.js';
 
 
 import RedesSociais from './Componentes/RedesSociais';
+
 import Rodape from './Componentes/rodape';
 import Sobre from './Componentes/sobre/sobre';
 
@@ -16,8 +19,10 @@ function App() {
    
     <Projetos/>
     <Sobre/>
-    <Rodape/>
-
+    
+    
+    <CarouselB/>
+        <Rodape/>
     <RedesSociais/>
 
     

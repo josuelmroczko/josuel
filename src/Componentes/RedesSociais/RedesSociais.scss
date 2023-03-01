@@ -21,3 +21,10 @@
     list-style: none;
     cursor: pointer;
 }
+
+@media (max-width:400px){
+    .relogio h1{
+        right: 2%;
+        top: -20px;
+    }
+  }
