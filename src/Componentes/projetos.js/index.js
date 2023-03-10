@@ -1,5 +1,6 @@
 import calculadoraimc from './calculadoraImc.jpg'
 import imgaleatoria from './trabalhando.jpeg'
+import organo from './organo.png'
 import './projetos.css'
 
 
@@ -22,7 +23,7 @@ function Projetos () {
 
 
         <li >
-        <img src={imgaleatoria} ></img><p>Logo teremos mais projetos</p>
+        <a href='https://organo-murex-five.vercel.app/' target="black" >   <img src={organo} ></img><p>Logo teremos mais projetos</p></a>
         </li>
 
 
