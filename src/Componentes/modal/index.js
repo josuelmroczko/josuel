@@ -80,10 +80,10 @@ function Competencias() {
          <a href="https://cursos.alura.com.br/certificate/b9c198c4-7cd8-4bd2-97a9-85d6b832cacc " target="blank">PRATICANDO CSS: GRID E FLEXBOX</a>
          <hr/> 
 
-         <a href=" " target="blank"> </a>
+         <a href="https://cursos.alura.com.br/certificate/84aa7274-a65f-4023-a8b5-23c971d3d2fe " target="blank">PRINCÍPIOS DO TRABALHO EM EQUIPE: RELAÇÕES COLABORATIVAS </a>
          <hr/> 
 
-         <a href=" " target="blank"> </a>
+         <a href="https://cursos.alura.com.br/certificate/700f47d5-5eaa-4ded-a32d-6107594e7ffb" target="blank"> EXCEL: DOMINE O EDITOR DE PLANILHAS</a>
          <hr/> 
 
          <a href=" " target="blank"> </a>
