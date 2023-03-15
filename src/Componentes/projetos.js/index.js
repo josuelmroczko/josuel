@@ -1,6 +1,7 @@
 import calculadoraimc from './calculadoraImc.jpg'
 import imgaleatoria from './trabalhando.jpeg'
 import organo from './organo.png'
+import alurabook from './alurabook.png'
 import './projetos.css'
 
 
@@ -29,7 +30,7 @@ function Projetos () {
 
 
         <li >
-        <img src={imgaleatoria} ></img><p>Logo teremos mais projetos</p>
+        <a href='https://alurabook-opal-delta.vercel.app/' target="black"> <img src={alurabook} ></img><p>Alura Book</p></a>
         </li>
 
         <li >
