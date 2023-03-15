@@ -1,5 +1,5 @@
 import './Topo.css'
-import imagem from './imagem.gif'
+import imagem from '../imagens/imagem.gif'
 import Competencias from '../modal'
 
 

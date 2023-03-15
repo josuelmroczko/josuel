@@ -1,9 +1,9 @@
 import './RedesSociais.css'
 
 
-import linkedin from './LinkedIn.png'
-import git from './git.png'
-import whatsapp from './whatsapp.png'
+import linkedin from '../imagens/LinkedIn.png'
+import git from '../imagens/git.png'
+import whatsapp from '../imagens/whatsapp.png'
 import Relogio from '../Relogio'
 
 function RedesSociais (){

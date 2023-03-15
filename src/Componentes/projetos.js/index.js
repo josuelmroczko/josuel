@@ -1,7 +1,8 @@
-import calculadoraimc from './calculadoraImc.jpg'
-import imgaleatoria from './trabalhando.jpeg'
-import organo from './organo.png'
-import alurabook from './alurabook.png'
+import calculadoraimc from '../imagens/calculadoraImc.jpg'
+import imgaleatoria from '../imagens/trabalhando.jpeg'
+import organo from '../imagens/organo.png'
+import alurabook from '../imagens/alurabook.png'
+
 import './projetos.css'
 
 
@@ -39,9 +40,7 @@ function Projetos () {
         
 
         </ul> 
-           <div>
-            
-           </div>
+      
 </div>
         
         

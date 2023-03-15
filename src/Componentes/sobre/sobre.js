@@ -1,4 +1,4 @@
-import pclofi from './pclofi.png'
+import pclofi from '../imagens/pclofi.png'
 import './sobre.css'
 
 function Sobre (){
