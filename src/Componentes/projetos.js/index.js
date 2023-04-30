@@ -20,7 +20,7 @@ function Projetos() {
 
 
                 <li >
-                   <a href="https://catus-11.vercel.app/" target="blanck"> <img src={ecomerce} ></img><p>ecomerce</p></a>
+                   <a href="https://catus-11.vercel.app/" target="blanck"> <img src={ecomerce} ></img><p>E-comerce</p> </a>
                 </li>
 
                 <li >
