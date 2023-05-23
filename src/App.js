@@ -16,10 +16,10 @@ function App() {
     
     
     <CarouselB/>
-        <Rodape/>
+   
     <RedesSociais/>
 
-    
+         <Rodape/>
 
     </div>
   );
